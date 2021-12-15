@@ -2,7 +2,6 @@ from typing import Optional
 
 from pydantic import BaseModel
 from sqlalchemy import Integer, Column, String
-from sqlmodel import SQLModel, Field
 from app.db import Base
 
 
